@@ -67,14 +67,14 @@ AVADIA — Programa sin límites. Crea en español.
 
 Así de limpio y natural luce un programa escrito en **Avadia** (incluyendo tipado progresivo de la v1.3):
 
-```avadia
+```av
 // Saludo y tipos progresivos en Avadia
 crear nombre: texto = leer("¿Cómo te llamas? ")
 crear nivel: entero = 1
 
 funcion saludar(usuario, puntos)
     mostrar "¡Hola, " + usuario + "! Bienvenido a Avadia."
-    mostrar "Nivel inicial: " + puntos
+    mostrar "Nivel inicial: " + texto(puntos)
 fin
 
 saludar(nombre, nivel)
