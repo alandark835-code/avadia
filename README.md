@@ -62,3 +62,44 @@ La visión a largo plazo es construir una plataforma de programación completa, 
 Crear un lenguaje de programación moderno, potente y versátil, donde el español sea el idioma principal de programación y donde los desarrolladores puedan construir prácticamente cualquier tipo de software desde un mismo ecosistema.
 
 AVADIA — Programa sin límites. Crea en español.
+
+## ⚡ Inicio rápido y ejemplo de código
+
+Así de limpio y natural luce un programa escrito en **Avadia** (incluyendo tipado progresivo de la v1.3):
+
+```avadia
+// Saludo y tipos progresivos en Avadia
+crear nombre: texto = leer("¿Cómo te llamas? ")
+crear nivel: entero = 1
+
+funcion saludar(usuario, puntos)
+    mostrar "¡Hola, " + usuario + "! Bienvenido a Avadia."
+    mostrar "Nivel inicial: " + puntos
+fin
+
+saludar(nombre, nivel)
+```
+
+### 📥 Instalación rápida (Windows)
+
+1. Asegúrate de tener instalado **Python 3.10 o superior** (con `Add Python to PATH` y `tcl/tk` activados).
+2. Clona este repositorio o descarga la última versión desde la sección de [Releases](https://github.com).
+3. Ejecuta `instalar_avadia.bat`.
+4. Abre una nueva terminal y verifica la instalación:
+
+```bash
+avadia --version
+```
+
+### 💻 Comandos principales
+
+```bash
+avadia programa.av              # Ejecutar un programa
+avadia --verificar programa.av  # Analizar tipos y semántica sin ejecutar
+avadia --editor                 # Abrir Avadia Creator Studio (IDE visual)
+avadia --nuevo juego mi_juego   # Crear un proyecto desde plantilla
+avadia --ayuda                  # Ver todos los comandos disponibles
+```
+
+> 📖 Consulta el archivo [`MANUAL.md`](./MANUAL.md) o la carpeta [`documentacion/`](./documentacion) para explorar las bibliotecas de **Juegos 2D**, **Web**, **Física** y **Archivos**.
+> 
