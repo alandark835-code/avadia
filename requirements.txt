@@ -1,0 +1,2 @@
+# Avadia 1.1 usa la biblioteca estándar de Python; no necesita paquetes externos.
+# Para juegos 2D, instala Python en Windows incluyendo Tcl/Tk (tkinter).
